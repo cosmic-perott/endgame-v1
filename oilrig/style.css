@@ -1,0 +1,32 @@
+body {
+            background-color: #f3f4f6;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+            margin: 0;
+            padding: 30px;
+        }
+        .spreadsheet-container {
+            background: white;
+            border: 1px solid #c0c0c0;
+            border-radius: 4px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            overflow-x: auto;
+            display: inline-block;
+            min-width: 600px;
+        }
+        table {
+            border-collapse: collapse;
+            font-size: 13px;
+            color: #333;
+        }
+        td {
+            border: 1px solid #e0e0e0;
+            padding: 6px 12px;
+            min-width: 100px;
+            height: 22px;
+            white-space: nowrap;
+        }
+        .corner-header {
+            background-color: #f8f9fa;
+            border: 1px solid #c0c0c0;
+            width: 40px;
+        }
